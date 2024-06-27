@@ -1,0 +1,55 @@
+# PyCharm
+.idea/
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+.Python
+env/
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# pip
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Installation artifacts
+*.whl
+*.tgz
+*.tar.gz
+*.zip
+*.egg
+
+# PyBuilder
+_pybuilder/
+target/
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+
+# Sphinx
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+#VSCode
+.vscode/
+.DS_Store
+
+# venv
+venv/
+.venv/
+env/
+.env/
