@@ -55,7 +55,20 @@ def split(li: List) -> Tuple[List, List]:
     return left_half, right_half
 
 
+def verify_merge_sort(li):
+    n = len(li)
+    if n == 0 or n == 1:
+        return True
+
+    return li[0] < li[1] and verify_merge_sort(li[1:])
+
+
 if __name__ == "__main__":
     # numbers.pop()
-    merged = merge_sort(random_numbers)
-    print(merged)
+    merged_numbers = merge_sort(random_numbers)
+
+    print("-" * 100)
+    print(merged_numbers)
+
+    print(verify_merge_sort(random_numbers))
+    print(verify_merge_sort(merged_numbers))
