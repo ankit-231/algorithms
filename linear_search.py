@@ -22,7 +22,8 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 result = linear_search(numbers, 1)
 
-verify(result)
+if __name__ == "__main__":
+    verify(result)
 
 """
 Why this program is an algorithm?
